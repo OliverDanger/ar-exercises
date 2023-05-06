@@ -8,3 +8,5 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+puts "total revenue: ", @total_revenue = Store.sum( :annual_revenue )
+puts "avg revenue: ", @total_revenue / Store.count
